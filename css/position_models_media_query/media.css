@@ -1,0 +1,40 @@
+/* Base styles for mobile */
+body {
+  background-color: lightyellow;
+  font-size: 14px;
+  text-align: center;
+}
+
+/* Styles for larger screens */
+/* 768 to 900px */
+@media (min-width: 768px) and (max-width: 900px) {
+  body {
+    background-color: orange;
+    font-size: 16px;
+  }
+}
+
+/* Styles for printing */
+@media print {
+  body {
+    background-color: green;
+    color: blue;
+    font-size: 12pt;
+  }
+  h1,
+  p {
+    color: black;
+  }
+
+  .btn {
+    display: none;
+  }
+}
+
+/* Positions Modals */
+/* Media Queries */
+
+/* Add whatsapp icons to your porftolio and Weather app also chatbot */
+/* Add sticky header */
+
+/* Make your site responsive with media queries  */
